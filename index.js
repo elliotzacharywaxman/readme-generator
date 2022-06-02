@@ -37,10 +37,10 @@ inquirer
     fs.writeFileSync(path.join(__dirname,"/dist/","README.md"),generateMarkdown(answers))
     console.log(answers)
   })
-//   .catch((error) => {
-//     if (error.isTtyError) {
-//       // Prompt couldn't be rendered in the current environment
-//     } else {
-//       // Something else went wrong
-//     }
-//   });
+  .catch((error) => {
+    if (error.isTtyError) {
+      // Prompt couldn't be rendered in the current environment
+    } else {
+      // Something else went wrong
+    }
+  });
