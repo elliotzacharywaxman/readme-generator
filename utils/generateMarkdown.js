@@ -6,6 +6,12 @@ function renderLicenseBadge(license) {
   } else if
     (license === "apache 2.0"){
     return `[![Apache](https://img.shields.io/badge/License-apache%202.0-yellowgreen)](https://opensource.org/licenses/apache%202.0)`
+  } else if
+  (license === "GPL"){
+  return `[![Apache](https://img.shields.io/badge/License-GPL-green)](https://opensource.org/licenses/apache%202.0)`
+  } else if
+  (license === "APL"){
+  return `[![Apache](https://img.shields.io/badge/License-GPL-green)](https://opensource.org/licenses/apache%202.0)`
   }
 }
 
